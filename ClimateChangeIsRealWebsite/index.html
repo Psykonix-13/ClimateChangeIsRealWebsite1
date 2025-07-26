@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Climate Change Is Real</title>
+    <!-- Load Tailwind CSS from CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts - Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="font-inter bg-gray-50 text-gray-900">
+
+    <!-- Header -->
+    <header class="bg-white shadow-lg py-4 px-6 md:px-12 fixed w-full z-50 rounded-b-lg border-b border-green-200">
+        <nav class="container mx-auto flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-green-600 hover:text-green-500 transition duration-300">Climate Change Is Real</a>
+            <ul class="hidden md:flex space-x-8 items-center">
+                <li><a href="#home" class="text-gray-700 hover:text-green-600 transition duration-300">Home</a></li>
+                <li><a href="#causes" class="text-gray-700 hover:text-green-600 transition duration-300">Causes</a></li>
+                <li><a href="#effects" class="text-gray-700 hover:text-green-600 transition duration-300">Effects</a></li>
+                <li><a href="#solutions" class="text-gray-700 hover:text-green-600 transition duration-300">Solutions</a></li>
+                <li>
+                    <a href="#contact" class="btn-header-action">
+                        Get Involved
+                    </a>
+                </li>
+            </ul>
+            <!-- Mobile Menu Button -->
+            <button id="mobile-menu-button" class="md:hidden text-gray-700 focus:outline-none">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                </svg>
+            </button>
+        </nav>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden mt-4 space-y-2 bg-white rounded-md p-2">
+            <a href="#home" class="block py-2 px-4 text-gray-700 hover:bg-gray-100 rounded-md">Home</a>
+            <a href="#causes" class="block py-2 px-4 text-gray-700 hover:bg-gray-100 rounded-md">Causes</a>
+            <a href="#effects" class="block py-2 px-4 text-gray-700 hover:bg-gray-100 rounded-md">Effects</a>
+            <a href="#solutions" class="block py-2 px-4 text-gray-700 hover:bg-gray-100 rounded-md">Solutions</a>
+            <a href="#contact" class="block py-2 px-4 text-gray-700 hover:bg-gray-100 rounded-md">Get Involved</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="relative min-h-screen flex items-center bg-gray-50 pt-20">
+        <div class="container mx-auto flex flex-col md:flex-row items-center justify-center py-12 px-6 md:px-12 gap-8">
+            <!-- Removed Left Column: Image -->
+            <div class="md:w-full text-center">
+                <h1 class="text-4xl md:text-6xl font-extrabold leading-tight mb-6 animate-fade-in-up text-gray-900">
+                    <span class="inline-block align-middle mr-4 text-green-600">🌍</span> Global Unity for Climate Solutions.
+                </h1>
+                <p class="text-lg md:text-xl mb-8 animate-fade-in-up delay-200 text-gray-700">
+                    Our home, Earth, faces unprecedented challenges. From the vastness of space, we see its delicate beauty and the urgent need for action against climate change.
+                </p>
+                <div class="flex flex-col sm:flex-row justify-center md:justify-center gap-4 animate-fade-in-up delay-400">
+                    <a href="#solutions" class="btn-primary">
+                        Discover Solutions
+                    </a>
+                    <a href="#causes" class="btn-secondary">
+                        Explore Causes
+                    </a>
+                    <a href="#effects" class="btn-secondary">
+                        View Effects
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Causes Section -->
+    <section id="causes" class="py-16 px-6 md:px-12 bg-gray-100 text-gray-900">
+        <div class="container mx-auto">
+            <h2 class="text-4xl font-bold text-center mb-12 text-green-700">Causes of Climate Change</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+                <!-- Cause Card 1 -->
+                <div class="card-light p-8">
+                    <h3 class="text-2xl font-semibold mb-4 text-green-600">Burning Fossil Fuels</h3>
+                    <p class="text-gray-700">
+                        The combustion of coal, oil, and gas for electricity, heat, and transportation is the largest contributor to greenhouse gas emissions. This releases massive amounts of carbon dioxide ($CO_2$), trapping heat in the atmosphere.
+                    </p>
+                </div>
+                <!-- Cause Card 2 -->
+                <div class="card-light p-8">
+                    <h3 class="text-2xl font-semibold mb-4 text-green-600">Deforestation</h3>
+                    <p class="text-gray-700">
+                        Forests act as vital carbon sinks, absorbing $CO_2$ from the atmosphere. When forests are cleared for agriculture, logging, or development, this stored carbon is released, intensifying the greenhouse effect.
+                    </p>
+                </div>
+                <!-- Cause Card 3 -->
+                <div class="card-light p-8">
+                    <h3 class="text-2xl font-semibold mb-4 text-green-600">Industrial Processes</h3>
+                    <p class="text-gray-700">
+                        Various industrial activities, including the production of cement, steel, and chemicals, release potent greenhouse gases like methane ($CH_4$), nitrous oxide ($N_2O$), and fluorinated gases. These gases have a much higher global warming potential than $CO_2$.
+                    </p>
+                </div>
+                <!-- Cause Card 4 -->
+                <div class="card-light p-8">
+                    <h3 class="text-2xl font-semibold mb-4 text-green-600">Agriculture</h3>
+                    <p class="text-gray-700">
+                        Agricultural practices contribute significantly to emissions. Livestock farming generates large quantities of methane, while the use of synthetic fertilizers releases nitrous oxide. Land management changes also play a role.
+                    </p>
+                </div>
+                <!-- Cause Card 5 -->
+                <div class="card-light p-8">
+                    <h3 class="text-2xl font-semibold mb-4 text-green-600">Waste Management</h3>
+                    <p class="text-gray-700">
+                        Landfills are major sources of methane emissions. As organic waste decomposes in anaerobic (oxygen-free) conditions, it produces methane, a powerful greenhouse gas. Improper waste disposal exacerbates this issue.
+                    </p>
+                </div>
+                <!-- Cause Card 6 -->
+                <div class="card-light p-8">
+                    <h3 class="text-2xl font-semibold mb-4 text-green-600">Overconsumption</h3>
+                    <p class="text-gray-700">
+                        Our modern consumption patterns drive increased production of goods and services, which often involve energy-intensive manufacturing, extensive resource extraction, and long supply chains, all leading to higher emissions.
+                    </p>
+                </div>
+            </div>
+            <p class="text-center text-gray-600 mt-10 text-sm">
+                For more detailed information, refer to <a href="https://en.wikipedia.org/wiki/Causes_of_climate_change" target="_blank" class="text-green-700 hover:underline">Wikipedia: Causes of Climate Change</a>.
+            </p>
+        </div>
+    </section>
+
+    <!-- Effects Section -->
+    <section id="effects" class="py-16 px-6 md:px-12 bg-white text-gray-900">
+        <div class="container mx-auto">
+            <h2 class="text-4xl font-bold text-center mb-12 text-green-700">Effects on Our Planet</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+                <!-- Effect Card 1 -->
+                <div class="card-light p-8">
+                    <h3 class="text-2xl font-semibold mb-4 text-green-600">Rising Global Temperatures</h3>
+                    <p class="text-gray-700">
+                        The planet's average surface temperature has risen significantly, leading to warmer oceans, melting ice, and heatwaves. This warming disrupts ecosystems and human systems worldwide.
+                    </p>
+                </div>
+                <!-- Effect Card 2 -->
+                <div class="card-light p-8">
+                    <h3 class="text-2xl font-semibold mb-4 text-green-600">Extreme Weather Events</h3>
+                    <p class="text-gray-700">
+                        Climate change intensifies extreme weather, resulting in more frequent and severe heatwaves, prolonged droughts, devastating floods, intense wildfires, and powerful storms, impacting communities globally.
+                    </p>
+                </div>
+                <!-- Effect Card 3 -->
+                <div class="card-light p-8">
+                    <h3 class="text-2xl font-semibold mb-4 text-green-600">Melting Glaciers and Ice Sheets</h3>
+                    <p class="text-gray-700">
+                        Polar ice caps, glaciers, and ice sheets are melting at an alarming rate, contributing directly to rising sea levels and threatening freshwater supplies for millions.
+                    </p>
+                </div>
+                <!-- Effect Card 4 -->
+                <div class="card-light p-8">
+                    <h3 class="text-2xl font-semibold mb-4 text-green-600">Sea Level Rise</h3>
+                    <p class="text-gray-700">
+                        Global sea levels are rising due to thermal expansion of warming oceans and melting ice. This threatens low-lying coastal areas, leading to increased flooding, erosion, and displacement of populations.
+                    </p>
+                </div>
+                <!-- Effect Card 5 -->
+                <div class="card-light p-8">
+                    <h3 class="text-2xl font-semibold mb-4 text-green-600">Ocean Acidification</h3>
+                    <p class="text-gray-700">
+                        The absorption of excess $CO_2$ by oceans leads to increased acidity, which severely impacts marine ecosystems. This acidification harms shell-forming organisms, coral reefs, and the entire marine food web.
+                    </p>
+                </div>
+                <!-- Effect Card 6 -->
+                <div class="card-light p-8">
+                    <h3 class="text-2xl font-semibold mb-4 text-green-600">Impact on Biodiversity</h3>
+                    <p class="text-gray-700">
+                        Changing climates force species to migrate or face extinction as their habitats transform. This leads to a significant loss of biodiversity, disrupting ecological balances and natural services.
+                    </p>
+                </div>
+            </div>
+            <p class="text-center text-gray-600 mt-10 text-sm">
+                For more detailed information, refer to <a href="https://en.wikipedia.org/wiki/Effects_of_climate_change" target="_blank" class="text-green-700 hover:underline">Wikipedia: Effects of Climate Change</a>.
+            </p>
+        </div>
+    </section>
+
+    <!-- Solutions Section -->
+    <section id="solutions" class="py-16 px-6 md:px-12 bg-gray-100 text-gray-900">
+        <div class="container mx-auto">
+            <h2 class="text-4xl font-bold text-center mb-12 text-green-700">Solutions for a Sustainable Galaxy</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+                <!-- Solution Card 1 -->
+                <div class="card-light p-8 flex flex-col justify-between">
+                    <div>
+                        <h3 class="text-2xl font-semibold mb-4 text-green-600">Transition to Renewable Energy</h3>
+                        <p class="text-gray-700 mb-4">
+                            Accelerating the shift from fossil fuels to clean, renewable energy sources like solar, wind, hydro, and geothermal power is crucial. This reduces greenhouse gas emissions from electricity generation.
+                        </p>
+                    </div>
+                    <a href="https://en.wikipedia.org/wiki/Renewable_energy" target="_blank" class="btn-primary mt-4">
+                        Learn More
+                    </a>
+                </div>
+                <!-- Solution Card 2 -->
+                <div class="card-light p-8 flex flex-col justify-between">
+                    <div>
+                        <h3 class="text-2xl font-semibold mb-4 text-green-600">Improve Energy Efficiency</h3>
+                        <p class="text-gray-700 mb-4">
+                            Implementing energy-efficient technologies and practices in homes, businesses, and industries can significantly reduce overall energy consumption and demand, thereby lowering emissions.
+                        </p>
+                    </div>
+                    <a href="https://en.wikipedia.org/wiki/Energy_efficiency" target="_blank" class="btn-primary mt-4">
+                        Learn More
+                    </a>
+                </div>
+                <!-- Solution 3 -->
+                <div class="card-light p-8 flex flex-col justify-between">
+                    <div>
+                        <h3 class="text-2xl font-semibold mb-4 text-green-600">Sustainable Transportation</h3>
+                        <p class="text-gray-700 mb-4">
+                            Promoting electric vehicles, investing in robust public transportation, and encouraging active transport like cycling and walking can drastically cut emissions from the transportation sector.
+                        </p>
+                    </div>
+                    <a href="https://en.wikipedia.org/wiki/Sustainable_transport" target="_blank" class="btn-primary mt-4">
+                        Learn More
+                    </a>
+                </div>
+                <!-- Solution Card 4 -->
+                <div class="card-light p-8 flex flex-col justify-between">
+                    <div>
+                        <h3 class="text-2xl font-semibold mb-4 text-green-600">Reforestation and Afforestation</h3>
+                        <p class="text-gray-700 mb-4">
+                            Protecting existing forests, planting new trees (reforestation), and establishing forests on lands that were not previously forested (afforestation) are powerful ways to absorb $CO_2$ from the atmosphere.
+                        </p>
+                    </div>
+                    <a href="https://en.wikipedia.org/wiki/Reforestation" target="_blank" class="btn-primary mt-4">
+                        Learn More
+                    </a>
+                </div>
+                <!-- Solution Card 5 -->
+                <div class="card-light p-8 flex flex-col justify-between">
+                    <div>
+                        <h3 class="text-2xl font-semibold mb-4 text-green-600">Sustainable Agriculture</h3>
+                        <p class="text-gray-700 mb-4">
+                            Adopting sustainable farming practices, such as reduced tillage, improved manure management, and promoting plant-based diets, can significantly lower agricultural greenhouse gas emissions.
+                        </p>
+                    </div>
+                    <a href="https://en.wikipedia.org/wiki/Sustainable_agriculture" target="_blank" class="btn-primary mt-4">
+                        Learn More
+                    </a>
+                </div>
+                <!-- Solution Card 6 -->
+                <div class="card-light p-8 flex flex-col justify-between">
+                    <div>
+                        <h3 class="text-2xl font-semibold mb-4 text-green-600">Waste Reduction and Recycling</h3>
+                        <p class="text-gray-700 mb-4">
+                            Minimizing waste generation, increasing recycling and composting rates, and improving waste-to-energy technologies help reduce methane emissions from landfills and conserve resources.
+                        </p>
+                    </div>
+                    <a href="https://en.wikipedia.org/wiki/Waste_management" target="_blank" class="btn-primary mt-4">
+                        Learn More
+                    </a>
+                </div>
+            </div>
+            <p class="text-center text-gray-600 mt-10 text-sm">
+                For more detailed information, refer to <a href="https://en.wikipedia.org/wiki/Climate_change_mitigation" target="_blank" class="text-green-700 hover:underline">Wikipedia: Climate Change Mitigation</a>.
+            </p>
+        </div>
+    </section>
+
+    <!-- Call to Action / Get Involved Section -->
+    <section id="contact" class="py-16 px-6 md:px-12 bg-white text-gray-900 border-t border-gray-200">
+        <div class="container mx-auto max-w-3xl">
+            <h2 class="text-4xl font-bold mb-6 text-green-700">Join the Galactic Movement!</h2>
+            <p class="text-lg mb-8 text-gray-700">
+                Your actions, no matter how small, contribute to a larger impact across the cosmos. Let's work together to protect our planet for future generations.
+            </p>
+            <!-- Removed 'Follow Us Through the Stars' and social media icons -->
+        </div>
+    </section>
+
+    <!-- Author Section -->
+    <section id="author" class="py-16 px-6 md:px-12 bg-gray-100 text-gray-900 border-t border-gray-200">
+        <div class="container mx-auto max-w-2xl text-center">
+            <h2 class="text-4xl font-bold mb-8 text-green-700">About the Author</h2>
+            <div class="card-light p-8 flex flex-col items-center">
+                <img src="https://placehold.co/120x120/E0F2F1/34D399?text=Author" alt="Author Profile Picture" class="w-32 h-32 rounded-full object-cover mb-6 shadow-md border-4 border-green-300">
+                <h3 class="text-3xl font-semibold mb-3 text-green-600">Mohammad Faraz Akhtar</h3>
+                <p class="text-gray-700 mb-6 max-w-prose">
+                    Passionate about climate action and digital innovation. This website is a small step towards raising awareness and promoting sustainable solutions for our planet.
+                </p>
+                <!-- Removed Instagram follow button -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-100 text-gray-600 py-8 px-6 md:px-12 text-center rounded-t-lg border-t border-gray-200">
+        <div class="container mx-auto">
+            <p>&copy; 2025 ClimateGuard. All rights reserved.</p>
+            <div class="flex justify-center space-x-4 mt-4">
+                <a href="#" class="hover:text-green-600 transition duration-300">Privacy Policy</a>
+                <a href="#" class="hover:text-green-600 transition duration-300">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Link to JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
